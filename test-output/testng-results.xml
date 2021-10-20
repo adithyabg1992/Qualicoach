@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-19T17:30:40Z" name="Suite" finished-at="2021-10-19T17:38:15Z" duration-ms="455731">
+    <groups>
+    </groups>
+    <test started-at="2021-10-19T17:30:40Z" name="Test" finished-at="2021-10-19T17:38:15Z" duration-ms="455731">
+      <class name="Academy.StudentHomePage">
+        <test-method signature="CourseCertificate()[pri:0, instance:Academy.StudentHomePage@1ffaf86]" started-at="2021-10-19T23:00:40Z" name="CourseCertificate" finished-at="2021-10-19T23:01:37Z" duration-ms="57106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CourseCertificate -->
+        <test-method signature="CourseEnroll()[pri:0, instance:Academy.StudentHomePage@1ffaf86]" started-at="2021-10-19T23:01:37Z" name="CourseEnroll" finished-at="2021-10-19T23:02:18Z" duration-ms="41536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CourseEnroll -->
+        <test-method signature="StudentQuiz()[pri:0, instance:Academy.StudentHomePage@1ffaf86]" started-at="2021-10-19T23:02:18Z" name="StudentQuiz" finished-at="2021-10-19T23:03:00Z" duration-ms="41925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentQuiz -->
+        <test-method signature="UserProfile()[pri:0, instance:Academy.StudentHomePage@1ffaf86]" started-at="2021-10-19T23:03:00Z" name="UserProfile" finished-at="2021-10-19T23:03:46Z" duration-ms="45962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserProfile -->
+        <test-method signature="badge_survey()[pri:0, instance:Academy.StudentHomePage@1ffaf86]" started-at="2021-10-19T23:03:46Z" name="badge_survey" finished-at="2021-10-19T23:04:33Z" duration-ms="47190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- badge_survey -->
+        <test-method signature="invalidLogin()[pri:0, instance:Academy.StudentHomePage@1ffaf86]" started-at="2021-10-19T23:04:33Z" name="invalidLogin" finished-at="2021-10-19T23:04:53Z" duration-ms="20024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method signature="validStudentuserlogin()[pri:0, instance:Academy.StudentHomePage@1ffaf86]" started-at="2021-10-19T23:04:53Z" name="validStudentuserlogin" finished-at="2021-10-19T23:05:24Z" duration-ms="30772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validStudentuserlogin -->
+      </class> <!-- Academy.StudentHomePage -->
+      <class name="Academy.AdminHomePage">
+        <test-method signature="addingUser()[pri:0, instance:Academy.AdminHomePage@65c7a252]" started-at="2021-10-19T23:05:24Z" name="addingUser" finished-at="2021-10-19T23:05:59Z" duration-ms="34860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingUser -->
+        <test-method signature="createCourse()[pri:0, instance:Academy.AdminHomePage@65c7a252]" started-at="2021-10-19T23:05:59Z" name="createCourse" finished-at="2021-10-19T23:07:12Z" duration-ms="73366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCourse -->
+        <test-method signature="deleteUser()[pri:0, instance:Academy.AdminHomePage@65c7a252]" started-at="2021-10-19T23:07:12Z" name="deleteUser" finished-at="2021-10-19T23:07:44Z" duration-ms="31820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="downloadReport()[pri:0, instance:Academy.AdminHomePage@65c7a252]" started-at="2021-10-19T23:07:44Z" name="downloadReport" finished-at="2021-10-19T23:08:15Z" duration-ms="31124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadReport -->
+      </class> <!-- Academy.AdminHomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
