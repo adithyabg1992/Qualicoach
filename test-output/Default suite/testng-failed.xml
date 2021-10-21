@@ -5,7 +5,7 @@
     <classes>
       <class name="Academy.StudentHomePage">
         <methods>
-          <include name="CourseCertificate"/>
+          <include name="validStudentuserlogin"/>
         </methods>
       </class> <!-- Academy.StudentHomePage -->
     </classes>

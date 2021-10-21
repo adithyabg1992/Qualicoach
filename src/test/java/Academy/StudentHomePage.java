@@ -92,10 +92,10 @@ public class StudentHomePage extends base {
 		}
 		catch(org.openqa.selenium.ElementNotInteractableException e)
 		{
-			String error = "Already enrolled to this course and hence the object is not interactable";
+		
 			Assert.assertFalse(false);
 		
-			System.out.println(error);
+	
 		}*/
 		
 		threaddealy_driverclose();

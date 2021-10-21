@@ -5,12 +5,8 @@
     <classes>
       <class name="Academy.StudentHomePage">
         <methods>
-          <include name="validStudentuserlogin"/>
           <include name="UserProfile"/>
           <include name="CourseEnroll"/>
-          <include name="CourseCertificate"/>
-          <include name="StudentQuiz"/>
-          <include name="badge_survey"/>
         </methods>
       </class> <!-- Academy.StudentHomePage -->
     </classes>
