@@ -1,21 +1,20 @@
-package Academy;
+package pageObjects;
+
+
+
 
 import java.io.IOException;
 
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
 
-import pageObjects.AddingUsers;
-import pageObjects.AdminLoginPage;
-import pageObjects.CreateCourse;
-import pageObjects.CreateReport;
-import pageObjects.DeleteUser;
-import pageObjects.ScrollPage;
+//import pageObjects.AddingUsers;
+//import pageObjects.AdminLoginPage;
+//import pageObjects.CreateCourse;
+//import pageObjects.CreateReport;
+//import pageObjects.DeleteUser;
+//import pageObjects.ScrollPage;
 import resources.base;
 
-public class AdminHomePage extends base {
+public class AdminPage extends base {
 
 	public void AdminLoginPage(String Username, String Password) throws IOException {
 		driver = initializerDriver();
@@ -39,8 +38,6 @@ public class AdminHomePage extends base {
 	 * }
 	 */
 	
-	@Test
-	
 	public void adminLogin() throws IOException, InterruptedException {
 		String username = "admin55";
 		String pass = "Admin@6155";
@@ -48,11 +45,8 @@ public class AdminHomePage extends base {
 		threaddealy_driverclose();
 	}
 	
-	
-	
-	
 //------------------------addingUser test case-------------------------------------------//
-	@Test
+
 	public void addingUser() throws IOException, InterruptedException {
 
 		String username = "admin55";
@@ -75,7 +69,7 @@ public class AdminHomePage extends base {
 	}
 
 //------------------------deleteUser test case------------------------------------------------//
-	@Test
+	
 	public void deleteUser() throws IOException, InterruptedException {
 
 		String username = "admin55";
@@ -94,7 +88,7 @@ public class AdminHomePage extends base {
 
 //---------------------------------createCourse test case--------------------------------------------//	
 
-	@Test
+
 	public void createCourse() throws IOException, InterruptedException {
 		String username = "admin55";
 		String pass = "Admin@6155";
@@ -115,7 +109,7 @@ public class AdminHomePage extends base {
 	}
 
 //----------------------------downloadReport test case------------------------------------------------//
-	@Test
+
 
 	public void downloadReport() throws IOException, InterruptedException {
 		driver = initializerDriver();

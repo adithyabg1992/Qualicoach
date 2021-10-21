@@ -37,12 +37,12 @@ public WebDriver driver;
 	{
 		Actions a = new Actions(driver);
 		Thread.sleep(500);
-		WebElement mouseHower = driver.findElement(By.xpath("//*[@id=\'page-site-index\']/div[6]/div/div/div[2]/div[2]/div[6]/i/img"));							//Hover mouse onto mouseHover button
+		WebElement mouseHower = driver.findElement(By.xpath("//p[contains(text(),'Selenium Beginners')]"));							//Hover mouse onto mouseHover button
 		a.moveToElement(mouseHower).build().perform();
 		
 		Thread.sleep(1000);
 		
-		WebElement mouseClick = driver.findElement(By.xpath("//*[@id=\'page-site-index\']/div[6]/div/div/div[2]/div[2]/div[6]/i/img"));
+		WebElement mouseClick = driver.findElement(By.xpath("//p[contains(text(),'Selenium Beginners')]"));
 		a.moveToElement(mouseClick).click().build().perform();
 	}
 	

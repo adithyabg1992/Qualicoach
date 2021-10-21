@@ -1,17 +1,20 @@
-package Academy;
+package studentPageObjects;
 
-import java.io.IOException;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+
+
+
 
 import studentPageObjects.Studentlogin;
 import studentPageObjects.CourseEnroll;
 import studentPageObjects.CourseCertficate;
 import studentPageObjects.UserProfile;
+
+import java.io.IOException;
+
 import resources.base;
-import org.testng.asserts.SoftAssert;
-public class StudentHomePage extends base {
+
+public class StudentPage extends base {
 
 	public void Studentlogin(String Username, String Password) throws IOException {
 		driver = initializerDriver();
@@ -49,7 +52,7 @@ public class StudentHomePage extends base {
 
 	}
 
-	@Test
+
 	public void validStudentuserlogin() throws IOException, InterruptedException {
 
 		validuserlogin();
@@ -57,7 +60,7 @@ public class StudentHomePage extends base {
 
 	}
 
-	@Test
+
 
 	public void invalidLogin() throws IOException, InterruptedException {
 
@@ -73,7 +76,7 @@ public class StudentHomePage extends base {
 
 	}
 
-	@Test
+
 
 	public void CourseEnroll() throws IOException, InterruptedException {
 		validuserlogin();
@@ -102,7 +105,7 @@ public class StudentHomePage extends base {
 
 	}
 
-	@Test
+
 
 	public void StudentQuiz() throws IOException, InterruptedException {
 
@@ -119,7 +122,6 @@ public class StudentHomePage extends base {
 
 	}
 
-	@Test
 
 	public void CourseCertificate() throws IOException, InterruptedException {
 		validuserlogin();
@@ -134,7 +136,6 @@ public class StudentHomePage extends base {
 
 	}
 
-	@Test
 
 	public void badge_survey() throws IOException, InterruptedException {
 		validuserlogin();
@@ -147,7 +148,7 @@ public class StudentHomePage extends base {
 		threaddealy_driverclose();
 	}
 
-	@Test
+
 
 	public void UserProfile() throws IOException, InterruptedException {
 
