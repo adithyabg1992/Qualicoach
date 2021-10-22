@@ -3,12 +3,16 @@
 <suite parallel="none" name="Failed suite [Suite]">
   <test parallel="none" name="Test(failed)">
     <classes>
-      <class name="Academy.StudentHomePage">
+      <class name="Academy.StudentUser">
         <methods>
-          <include name="UserProfile"/>
-          <include name="CourseEnroll"/>
+          <include name="StudentPage"/>
         </methods>
-      </class> <!-- Academy.StudentHomePage -->
+      </class> <!-- Academy.StudentUser -->
+      <class name="Academy.AdminUser">
+        <methods>
+          <include name="AdminPage"/>
+        </methods>
+      </class> <!-- Academy.AdminUser -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -2,7 +2,7 @@ package Academy;
 
 import java.io.IOException;
 
-import org.testng.Assert;
+//import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import studentPageObjects.Studentlogin;
@@ -10,7 +10,7 @@ import studentPageObjects.CourseEnroll;
 import studentPageObjects.CourseCertficate;
 import studentPageObjects.UserProfile;
 import resources.base;
-import org.testng.asserts.SoftAssert;
+//import org.testng.asserts.SoftAssert;
 public class StudentHomePage extends base {
 
 	public void Studentlogin(String Username, String Password) throws IOException {

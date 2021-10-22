@@ -31,7 +31,7 @@ public class base {
 
 		else if (browserName.equals("firefox")) {
 
-			System.out.println("hi");
+			System.out.println("Set properties for firefox");
 
 		}
 		driver.manage().window().maximize();

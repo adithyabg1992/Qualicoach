@@ -3,11 +3,11 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="Academy.StudentHomePage">
+      <class name="Academy.AdminUser">
         <methods>
-          <include name="validStudentuserlogin"/>
+          <include name="AdminPage"/>
         </methods>
-      </class> <!-- Academy.StudentHomePage -->
+      </class> <!-- Academy.AdminUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

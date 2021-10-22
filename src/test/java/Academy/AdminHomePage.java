@@ -2,9 +2,9 @@ package Academy;
 
 import java.io.IOException;
 
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
+//import org.testng.annotations.AfterTest;
+//import org.testng.annotations.BeforeTest;
+//import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import pageObjects.AddingUsers;
@@ -38,7 +38,7 @@ public class AdminHomePage extends base {
 	 * 
 	 * }
 	 */
-	
+	//------------------------admin login test case-------------------------------------------//
 	@Test
 	
 	public void adminLogin() throws IOException, InterruptedException {

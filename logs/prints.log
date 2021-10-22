@@ -1,0 +1,26 @@
+12:58:43.881 [main] INFO  resources.base -  admin login 
+13:00:00.636 [main] INFO  resources.base -  admin login 
+13:09:53.391 [main] INFO  resources.base - driver initilized
+13:10:14.244 [main] INFO  resources.base -  admin login successful
+13:10:16.510 [main] INFO  resources.base - driver initilized
+13:10:32.221 [main] INFO  resources.base -  admin login successful
+13:10:50.175 [main] INFO  resources.base -  adding user successful
+13:10:52.780 [main] INFO  resources.base - driver initilized
+13:11:07.260 [main] INFO  resources.base -  admin login successful
+13:11:21.769 [main] INFO  resources.base -  delete user successful
+13:11:24.692 [main] INFO  resources.base - driver initilized
+13:11:41.079 [main] INFO  resources.base -  admin login successful
+13:13:13.092 [main] INFO  resources.base -  create course successful
+13:13:49.535 [main] INFO  resources.base -  download report successful
+13:16:29.368 [main] INFO  resources.base - driver initilized
+13:16:43.741 [main] INFO  resources.base -  admin login successful
+13:16:46.459 [main] INFO  resources.base - driver initilized
+13:17:03.289 [main] INFO  resources.base -  admin login successful
+13:17:15.780 [main] INFO  resources.base -  adding user successful
+13:17:18.573 [main] INFO  resources.base - driver initilized
+13:17:33.975 [main] INFO  resources.base -  admin login successful
+13:17:51.471 [main] INFO  resources.base -  delete user successful
+13:17:54.906 [main] INFO  resources.base - driver initilized
+13:18:13.448 [main] INFO  resources.base -  admin login successful
+13:19:21.055 [main] INFO  resources.base -  create course successful
+13:19:57.479 [main] INFO  resources.base -  download report successful

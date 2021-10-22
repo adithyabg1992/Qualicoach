@@ -4,7 +4,8 @@ package pageObjects;
 
 
 import java.io.IOException;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 //import pageObjects.AddingUsers;
 //import pageObjects.AdminLoginPage;
@@ -15,14 +16,18 @@ import java.io.IOException;
 import resources.base;
 
 public class AdminPage extends base {
+	
+	public static Logger log =	LogManager.getLogger(base.class.getName());
 
 	public void AdminLoginPage(String Username, String Password) throws IOException {
 		driver = initializerDriver();
+		log.info("driver initilized");
 		driver.get("https://test.qualicoach.org/admin/search.php");
 		AdminLoginPage alp = new AdminLoginPage(driver);
 		alp.getEmail().sendKeys(Username);
 		alp.getPassword().sendKeys(Password);
 		alp.getLogin().click();
+		log.info(" admin login successful");
 
 	}
 
@@ -42,6 +47,7 @@ public class AdminPage extends base {
 		String username = "admin55";
 		String pass = "Admin@6155";
 		AdminLoginPage(username, pass);
+		
 		threaddealy_driverclose();
 	}
 	
@@ -65,6 +71,7 @@ public class AdminPage extends base {
 		ScrollPage scrl = new ScrollPage(driver);
 		scrl.scroll(0, 2000);
 		au.adminUpdate().click();
+		log.info(" adding user successful");
 		threaddealy_driverclose();
 	}
 
@@ -82,6 +89,7 @@ public class AdminPage extends base {
 		dus.addFilter().click();
 		dus.deleteUser().click();
 		dus.confirmUser().click();
+		log.info(" delete user successful");
 		threaddealy_driverclose();
 
 	}
@@ -104,6 +112,7 @@ public class AdminPage extends base {
 		cc.courseName().sendKeys("adfn");
 		cc.shortName().sendKeys("adsn");
 		cc.submit().click();
+		log.info(" create course successful");
 		threaddealy_driverclose();
 
 	}
@@ -126,6 +135,7 @@ public class AdminPage extends base {
 		// ScrollPage scrl = new ScrollPage(driver);
 		// scrl.scroll(0,6000);
 		cr.downloadReport().click();
+		log.info(" download report successful");
 		threaddealy_driverclose();
 
 	}
